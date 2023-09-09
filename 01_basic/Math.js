@@ -15,6 +15,35 @@ const date=new Date();
 // console.log(date.toString());
 // console.log(date.toDateString());
 
-const event = new Date('August 19, 1975 23:15:30');
-console.log(event.toString());
-console.log(event.toLocaleString());
+// const event = new Date('August 19, 1975 23:15:30');
+// console.log(event.toString());
+// console.log(event.toLocaleString());
+
+
+const obj={
+    id:"2534",
+    name:"krishna",
+    city:"kolkata"
+}
+// function anyobj(objec){
+//   console.log(`my name is ${objec.name} and city is ${objec.city}`);
+
+// }
+// //anyobj(obj);
+
+// anyobj({
+//     name:"hitesh",
+//     city:"bangalore"
+// })
+
+// function myNumber(...num1){
+//  return num1;
+// }
+// console.log(myNumber(122,465,87,980,435));
+
+let arr=[120,234,65,56];
+function newAr(arr1){
+   console.log(` the arr is ${arr1[2]}`)
+}
+newAr([23,34,45,56,78]);
+
