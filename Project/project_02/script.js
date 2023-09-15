@@ -12,11 +12,11 @@ forms.addEventListener('submit',(e)=>{
     const result=document.querySelector('#results');
 
     if(height===0 || height < 0 || isNaN(height)){
-        console.log("enter a valid height");
+        // console.log("enter a valid height");
         result.innerHTML="enter a valid height";
     }
     else if( weight === 0 || weight <0 || isNaN(weight)){
-        console.log("enter a valid weight");
+        // console.log("enter a valid weight");
         result.innerHTML="enter a valid weight";
     }
     else{
